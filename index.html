@@ -29,15 +29,22 @@
         <section>
             <form action="">
                 <h2 class="form-element">Create an Intuit account</h2>
-                <p class="form-element">One account for everything Intuit, including Mint.</p>
-                <p class="form-element">Learn more</p>
+                <p class="form-element">One account for everything Intuit. Learn more</p>
                 <p class="form-element" id="sign-in">Already got an account? Sign In.</p>
                 <label class="form-labels" for="email">Email address</label>
                     <input class="form-input" type="email" name="email" id="email">
                 <label class="form-labels" for="phone">Phone (Recommended)</label>    
                     <input class="form-input" type="tel" name="phone" id="phone">
                 <label class="form-labels" for="password">Password</label>
-                    <input class="form-input" type="password" name="password" id="password">                
+                    <input class="form-input" type="password" name="password" id="password">      
+                <div class="confirm-password">
+                    <p class="password-details">Use 8 or more characters</p>
+                    <p class="password-details">Use upper and lower case letters (e.g. Aa)</p>
+                    <p class="password-details">Use a number (e.g. 1234)</p>
+                    <p class="password-details">Use a symbol (e.g. !@#$)</p>
+                     <label class="form-labels" for="password">Confirm Password</label>
+                        <input class="form-input" type="password" name="password">
+                </div>         
                     <button class="form-element" type="submit" id="create"><i class="fas fa-lock"></i>Create Account</button>               
             </form>
             <div class="form-footer">
