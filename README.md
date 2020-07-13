@@ -19,7 +19,7 @@ The project has three separate features.
 
 ## Live Demo
 
-You can check our live demo here: [YouTube Clone](https://raw.githack.com/gurbuzertunga/formproject/development/index.html) 
+You can check our live demo here: [Form Project](https://raw.githack.com/gurbuzertunga/formproject/development/index.html) 
 
 
 
