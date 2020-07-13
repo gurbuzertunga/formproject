@@ -28,20 +28,22 @@
         </div>
         <section>
             <form action="">
-                <h2 class="">Create an Intuit account</h2>
-                <p>One account for everything Intuit, including Mint.</p>
-                <p>Learn more</p>
-                <label for="email">Email address</label>
-                    <input type="email" name="email" id="email">
-                <label for="phone">Phone (Recommended)</label>    
-                    <input type="tel" name="phone" id="phone">
-                <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                <button type="submit"><i class="fas fa-lock"></i>Create Account</button>
-                <p>By clicking Create account, you agree to our
-                    Terms and have read and acknowledge our Privacy Statement.</p>
-                <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+                <h2 class="form-element">Create an Intuit account</h2>
+                <p class="form-element">One account for everything Intuit, including Mint.</p>
+                <p class="form-element">Learn more</p>
+                <label class="form-labels" for="email">Email address</label>
+                    <input class="form-element" type="email" name="email" id="email">
+                <label class="form-labels" for="phone">Phone (Recommended)</label>    
+                    <input class="form-element" type="tel" name="phone" id="phone">
+                <label class="form-labels" for="password">Password</label>
+                    <input class="form-element" type="password" name="password" id="password">                
+                    <button class="form-element" type="submit" id="create"><i class="fas fa-lock"></i>Create Account</button>               
             </form>
+            <div class="form-footer">
+                <p class="form-element" style="font-style: italic;">By clicking Create account, you agree to our
+                    Terms and have read and acknowledge our Privacy Statement.</p>
+                <p class="form-element" id="google">Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+            </div>
         </section>
     </main>
     <footer>
