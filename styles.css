@@ -15,7 +15,9 @@ body {
 .align-center {
   align-items: center;
 }
+
 /** HEADING SECTION **/
+
 header {
   display: flex;
   justify-content: flex-end;
@@ -42,7 +44,9 @@ footer {
   margin-top: 4px;
   color: rgb(75, 75, 75);
 }
- /** MAIN SECTION **/
+
+/** MAIN SECTION **/
+
 main {
   margin-left: auto;
   margin-right: auto;
@@ -150,7 +154,9 @@ p,
 #google {
   background-color: rgb(241, 241, 241);
 }
+
 /** FOOTER SECTION **/
+
 footer {
   margin-left: 20%;
   margin-right: 20%;
@@ -159,7 +165,7 @@ footer {
   text-align: center;
 }
 
-footer ul {
+footer .footer-list {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -169,7 +175,9 @@ footer ul {
 footer li {
   padding: 10px;
 }
- /** RESPONSIVENESS SECTION **/
+
+/** RESPONSIVENESS SECTION **/
+
 @media screen and (max-width: 768px) {
   body header {
     display: none;
