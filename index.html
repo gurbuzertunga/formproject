@@ -19,11 +19,11 @@
         <p class="header-text">Already have an Intuit account?</p>
         <p class="header-text"><a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS#">I forgot my User ID or Password</a></p>
       </div>
-     <a href="https://accounts.intuit.com/index.html"><button type="submit" class="header-button">
+     <a href="https://accounts.intuit.com/index.html"><button type="submit" class="header-button align-center">
         <i class="fas fa-lock"></i>Sign In
       </button></a>
     </header>
-    <main>
+    <main class="align-center">
       <div class="main-logos">
         <div class="main-logo">
           <img src="img/intuit-logo.png" alt="Intuit Company logo" />
@@ -36,25 +36,25 @@
       </div>
       <section>
         <form>
-          <h2 class="form-element">Create an Intuit account</h2>
-          <p class="form-element">
+          <h2 class="form-element align-center">Create an Intuit account</h2>
+          <p class="form-element align-center">
             One account for everything Intuit. <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
           </p>
-          <p class="form-element" id="sign-in">
-            Already got an account? Sign In.
+          <p class="form-element align-center" id="sign-in">
+            Already got an account? <a href="https://accounts.intuit.com/index.html"> Sign In.</a>
           </p>
-          <label class="form-labels" for="email">Email address</label>
+          <label class="form-labels align-center" for="email">Email address</label>
           <input
-            class="form-input"
+            class="form-input align-center"
             type="email"
             name="email"
             id="email"
           />
-          <label class="form-labels" for="phone"
+          <label class="form-labels align-center" for="phone"
             >Phone (Recommended)</label
           >
           <input
-            class="form-input"
+            class="form-input align-center"
             type="tel"
             name="phone"
             id="phone"
@@ -66,50 +66,52 @@
               id="phone-verify"
               checked
             />
-            <label for="phone-verify" style="margin-left: 10px;"
+            <label for="phone-verify" 
               >Verify with text message</label
             >
           </div>
-          <label class="form-labels" for="password">Password</label>
+          <label class="form-labels align-center" for="password">Password</label>
           <input
-            class="form-input"
+            class="form-input align-center"
             type="password"
             name="password"
             id="password"
           />
           <div class="confirm-password">
-            <p class="password-details">Use 8 or more characters</p>
-            <p class="password-details">
+            <ul>
+            <li class="password-details">Use 8 or more characters</li>
+            <li class="password-details">
               Use upper and lower case letters (e.g. Aa)
-            </p>
-            <p class="password-details">Use a number (e.g. 1234)</p>
-            <p class="password-details">Use a symbol (e.g. !@#$)</p>
-            <label class="form-labels" for="password"
+            </li>
+            <li class="password-details">Use a number (e.g. 1234)</li>
+            <li class="password-details">Use a symbol (e.g. !@#$)</li>
+          </ul>
+            <label class="form-labels align-center" for="password"
               >Confirm Password</label
             >
             <input
-              class="form-input"
+              class="form-input align-center"
               type="password"
               name="password"
             />
           </div>
-          <a href=""><button class="form-element" type="submit" id="create">
+          <a href=""><button class="form-element align-center" type="submit" id="create">
             <i class="fas fa-lock"></i>Create Account
           </button></a>
         </form>
         <div class="form-footer">
-          <p class="form-element" style="font-style: italic;">
+          <p class="form-element align-center italic-style">
             By clicking Create account, you agree to our <a href="https://www.mint.com/terms">terms</a> and
             have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement</a>.
           </p>
-          <p class="form-element" id="google">
+          <p class="form-element align-center" id="google">
             Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">Terms of
             Use.</a>
           </p>
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="align-center">
       <ul>
         <li><a href="https://www.intuit.com/legal/">Legal</a></li>
         <li><a href="https://security.intuit.com/privacy/">Privacy</a></li>

@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,10 @@ body {
   flex-direction: column;
 }
 
+.align-center {
+  align-items: center;
+}
+/** HEADING SECTION **/
 header {
   display: flex;
   justify-content: flex-end;
@@ -27,7 +32,6 @@ header {
   border-width: 1px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   color: white;
   padding: 10px;
 }
@@ -38,13 +42,12 @@ footer {
   margin-top: 4px;
   color: rgb(75, 75, 75);
 }
-
+ /** MAIN SECTION **/
 main {
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .main-logos {
@@ -80,17 +83,11 @@ form {
 .form-element,
 .form-input {
   padding: 15px 20px 10px 20px;
-  align-items: center;
+  text-align: center;
 }
 
 .form-labels {
   padding: 15px 20px 10px 0;
-  align-items: center;
-}
-
-.form-input :focus {
-  border-color: aqua;
-  border-width: 5px;
 }
 
 p,
@@ -100,6 +97,10 @@ p,
 
 .confirm-password {
   display: none;
+}
+
+.confirm-password ul {
+  list-style: none;
 }
 
 .verification {
@@ -131,9 +132,12 @@ p,
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  align-items: center;
   color: white;
   padding: 10px 70px 10px 70px;
+}
+
+.italic-style {
+  font-style: italic;
 }
 
 .form-footer {
@@ -146,13 +150,12 @@ p,
 #google {
   background-color: rgb(241, 241, 241);
 }
-
+/** FOOTER SECTION **/
 footer {
   margin-left: 20%;
   margin-right: 20%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
@@ -166,7 +169,7 @@ footer ul {
 footer li {
   padding: 10px;
 }
-
+ /** RESPONSIVENESS SECTION **/
 @media screen and (max-width: 768px) {
   body header {
     display: none;
