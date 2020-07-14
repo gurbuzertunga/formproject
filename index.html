@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/9a2f12287f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <p class="header-text">Already have an Intuit account?</p>
+        <p class="header-text"><a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS#">I forgot my User ID or Password</a></p>
+      </div>
+        <button onclick="location. href='https://accounts.intuit.com/index.html'" type="submit" class="header-button align-center">
+        <i class="fas fa-lock"></i>Sign In
+      </button>
+    </header>
+    <main class="align-center">
+      <div class="main-logos">
+        <div class="main-logo">
+          <img src="img/intuit-logo.png" alt="Intuit Company logo" />
+        </div>
+        <div class="main-sublogos">
+          <img src="img/mint-logo.png" alt="Mint logo" />
+          <img src="img/quickbook-logo.png" alt="Quickbook logo" />
+          <img src="img/turbotax-logo.png" alt="Turbotax logo" />
+        </div>
+      </div>
+      <section>
+        <form>
+          <h2 class="form-element align-center">Create an Intuit account</h2>
+          <p class="form-element align-center">
+            One account for everything Intuit. <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+          </p>
+          <p class="form-element align-center" id="sign-in">
+            Already got an account? <a href="https://accounts.intuit.com/index.html"> Sign In.</a>
+          </p>
+          <label class="form-labels align-center" for="email">Email address</label>
+          <input
+            class="form-input align-center"
+            type="email"
+            name="email"
+            id="email"
+          />
+          <label class="form-labels align-center" for="phone"
+            >Phone (Recommended)</label
+          >
+          <input
+            class="form-input align-center"
+            type="tel"
+            name="phone"
+            id="phone"
+          />
+          <div class="verification">
+            <input
+              type="checkbox"
+              name="phone-verify"
+              id="phone-verify"
+              checked
+            />
+            <label for="phone-verify" 
+              >Verify with text message</label
+            >
+          </div>
+          <label class="form-labels align-center" for="password">Password</label>
+          <input
+            class="form-input align-center"
+            type="password"
+            name="password"
+            id="password"
+          />
+          <div class="confirm-password">
+            <ul>
+            <li class="password-details">Use 8 or more characters</li>
+            <li class="password-details">
+              Use upper and lower case letters (e.g. Aa)
+            </li>
+            <li class="password-details">Use a number (e.g. 1234)</li>
+            <li class="password-details">Use a symbol (e.g. !@#$)</li>
+          </ul>
+            <label class="form-labels align-center" for="password"
+              >Confirm Password</label
+            >
+            <input
+              class="form-input align-center"
+              type="password"
+              name="password"
+            />
+          </div>
+          <button onclick="location. href=''" class="form-element align-center" type="submit" id="create">
+            <i class="fas fa-lock"></i>Create Account
+          </button>
+        </form>
+        <div class="form-footer">
+          <p class="form-element align-center italic-style">
+            By clicking Create account, you agree to our <a href="https://www.mint.com/terms">terms</a> and
+            have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement</a>.
+          </p>
+          <p class="form-element align-center" id="google">
+            Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">Terms of
+            Use.</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="align-center">
+      <ul class=footer-list>
+        <li><a href="https://www.intuit.com/legal/">Legal</a></li>
+        <li><a href="https://security.intuit.com/privacy/">Privacy</a></li>
+        <li><a href="http://security.intuit.com/">Security</a></li>
+      </ul>
+      <p>
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks,
+        QB, TurboTax, ProConnect and Mint are registered trademarks of
+        Intuit Inc.
+      </p>
+      <p>
+        Terms and conditions, features, support, pricing, and service
+        options subject to change without notice.
+      </p>
+    </footer>
+  </body>
+</html>
